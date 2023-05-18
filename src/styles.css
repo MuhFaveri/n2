@@ -1,0 +1,210 @@
+.image-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* HEADER - COMEÇO */
+header {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2rem 0;
+    width: 90%;
+}
+
+header .logo {
+    color: var(--white);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header button {
+    background: var(--blue-500);
+    font-size: 1.25rem;
+    padding: 0 1rem;
+}
+
+header button:hover {
+    transition: .2s;
+    filter: brightness(0.9);
+}
+
+/* HEADER - FIM */
+
+/* INTRO - INICIO */
+#intro .intro-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#intro .intro-content h2 {
+    font-size: 2.75rem;
+    color: var(--white);
+}
+
+#intro .intro-content h1 {
+    font-size: 3.5rem;
+    color: var(--white);
+}
+
+#intro .intro-content p {
+    font-size: 1.25rem;
+    color: var(--white);
+}
+
+#intro .intro-content img {
+    width: 25rem;
+}
+
+/* INTRO - FIM */
+
+/* EVENT - COMEÇO */
+
+#event img {
+    width: 32rem;
+    height: 40rem;
+}
+
+.event-content {
+    display: flex;
+    gap: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+#event button {
+    background: var(--pink);
+    font-size: 1.25rem;
+    padding: 0 1rem;
+    margin-top: 2rem;
+}
+
+#event-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+#event h1 {
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#event p {
+    max-width: 50rem;
+}
+
+#event div {
+    align-items: center;
+}
+
+/* EVENT - FIM */
+
+/* TEACHERS - INICIO */
+#teachers {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background: var(--gray-100)
+}
+
+#teachers .teachers-content h2 {
+    color: var(--pink);
+}
+
+#teachers .teachers-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#teachers .all-teachers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    margin-top: 1rem;
+    gap: 3rem;
+}
+
+#teachers .card-teacher {
+    display: flex;
+    align-items: center;
+    background: var(--white);
+
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#teachers .card-teacher img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+/* TEACHERS - FIM */
+
+/* INFO - INICIO */
+
+#info {
+    color: white;
+    background-color: #120B1D;
+    padding: 1rem 0 2rem 0;
+}
+
+#info .info-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#info .info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 1rem;
+    gap: 4rem;
+}
+
+#info svg {
+    margin-bottom: 1rem;
+}
+
+#info .info-card {
+    padding: 2rem;
+    border-radius: 8px;
+    border: solid var(--gray-100) 1px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1-info {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
