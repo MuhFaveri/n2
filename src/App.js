@@ -5,6 +5,8 @@ import Nav from './components/Nav+header'
 import Intro from './components/intro'
 import Teachers from './components/teachers'
 import bg from './components/assets/image-background-intro.png'
+import Event from './components/event'
+import Info from './components/info'
 
 export default function App(){
     return(
@@ -13,6 +15,8 @@ export default function App(){
     <Nav/>
     <Intro/>
     <Teachers />
+    <Event/>
+    <Info/>
     </main>
     );
 }
