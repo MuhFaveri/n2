@@ -84,6 +84,7 @@ header button:hover {
 #event img {
     width: 32rem;
     height: 40rem;
+    border-radius: 20px;
 }
 
 .event-content {
@@ -148,7 +149,7 @@ header button:hover {
 
 #teachers .all-teachers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 
     margin-top: 1rem;
     gap: 5rem;
