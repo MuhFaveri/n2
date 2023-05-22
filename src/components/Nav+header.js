@@ -4,8 +4,8 @@ function Nav(){
       <h1 className='logo'>SECOM</h1>
       <nav>
         <ul>
-          <li><a href='#' >Convite</a></li>
-          <li><a href='#' >Sobre o Evento</a></li>
+          <li><a href='/' >Convite</a></li>
+          <li><a href='/evento' >Sobre o Evento</a></li>
         </ul>
       </nav>
 
