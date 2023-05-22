@@ -13,7 +13,6 @@
     padding: 0;
     box-sizing: border-box;
     background-attachment:initial;
-    outline: green 1px dashed;
 }
 
 @media (max-width: 1440px) {
