@@ -25,11 +25,21 @@ header .logo {
 
 nav ul {
     display: flex;
-    gap: 1.5rem;
+    gap: 10rem;
+    line-height: 20px;
+    font-size: 18px;
 }
 
 header a {
+    font-weight: bold;
     text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    transition: .15s;
+    filter: brightness(0.9);
+    font-size: 25px;
 }
 
 header button {

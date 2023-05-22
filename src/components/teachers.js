@@ -10,7 +10,7 @@ export default function Teachers(){
 
           <div class="all-teachers">
             <div class="card-teacher">
-              <img src="./images/cido.png" alt="" />
+              <img src="./assets/cido.png" alt="" />
 
               <div class="teacher-content">
                 <strong>Aparecido Freitas</strong>
