@@ -155,9 +155,41 @@ header button:hover {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
+    justify-content: center;
 }
 
-#teachers .all-teachers {
+#teachers .teachersEmCima {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+    margin-top: 1rem;
+    gap: 5rem;
+}
+
+#teachers .teacherEmbaixo {
+    display: flex;
+    align-items: center;
+    background: var(--white);
+
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+     
+    max-width: 35rem;
+   margin:1rem auto ;
+   gap: 5rem;
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#teachers .teacherEmbaixo img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+#teachers .teachersDoMeio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 
