@@ -1,5 +1,7 @@
 import Nav from "../components/Nav+header"
 import bg from './assets/Rectangle 17.png'
+import fotofoot from './assets/Rectangle 21.png'
+import Informacoes from "./informacoes"
 export default function PagEvento(){
 
 return(
@@ -7,6 +9,8 @@ return(
     <img src={bg} className="image-background" alt="aaaa"/>
     <Nav></Nav>
     <h1 id="aaaa"><i><u>Evento</u></i></h1>
+    <Informacoes></Informacoes>
+    <img src={fotofoot} id='fotofoot' alt="quebrou"/>
     </>
 )
 }
