@@ -199,6 +199,11 @@ header button:hover {
     margin-bottom: 1rem;
 }
 
+#info #mapa{
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
 #info .info-card {
     padding: 2rem;
     border-radius: 8px;
