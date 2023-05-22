@@ -101,11 +101,11 @@ header button:hover {
     display: flex;
     gap: 4rem;
 
-    display: flex;
+
     align-items: center;
     justify-content: space-around;
-    margin: 0 auto 0 auto;
     padding: 2rem 0 2rem 0;
+    margin: 0 auto;
     max-width: 1200px;
     width: 90%;
 }
@@ -117,11 +117,12 @@ header button:hover {
     margin-top: 2rem;
 }
 
-#event-button {
+/* #event-button {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-}
+} */
+
 
 #event h1 {
     font-size: 2.3rem;
@@ -152,13 +153,13 @@ header button:hover {
 }
 
 #teachers .teachers-content {
-    max-width: 1200px;
+
     margin: 0 auto;
     width: 90%;
     justify-content: center;
 }
 
-#teachers .teachersEmCima {
+#teachers .all-teachers {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 
@@ -166,7 +167,14 @@ header button:hover {
     gap: 5rem;
 }
 
-#teachers .teacherEmbaixo {
+#teachers .mecchi{
+    margin: 5rem auto 0 auto;
+    min-width: 500px;
+    max-width: 50%;
+}
+
+
+/* #teachers .teacherEmbaixo {
     display: flex;
     align-items: center;
     background: var(--white);
@@ -176,8 +184,8 @@ header button:hover {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
      
     max-width: 35rem;
-   margin:1rem auto ;
-   gap: 5rem;
+    margin:1rem auto ;
+    gap: 5rem;
 
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -195,13 +203,14 @@ header button:hover {
 
     margin-top: 1rem;
     gap: 5rem;
-}
+} */
 
 #teachers .card-teacher {
     display: flex;
     align-items: center;
     background: var(--white);
 
+    
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -214,6 +223,7 @@ header button:hover {
     margin-right: 2rem;
 }
 
+
 /* TEACHERS - FIM */
 
 /* INFO - INICIO */
@@ -224,6 +234,15 @@ header button:hover {
     padding: 1rem 0 2rem 0;
 }
 
+#info .Ungabunga{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
 #info .info-content {
     text-align: center;
     margin: 0 auto;
@@ -231,10 +250,10 @@ header button:hover {
 }
 
 #info .info-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 1rem;
-    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 32rem;
 }
 
 #info svg {
@@ -242,8 +261,9 @@ header button:hover {
 }
 
 #info #mapa{
-    width: 18.75rem;
-    height: 18.75rem;
+    width: 32rem;
+    height: 32rem;
+    border-radius: 8px;
 }
 
 #info .info-card {

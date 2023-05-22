@@ -5,7 +5,7 @@ import Teachers from './teachers'
 import bg from './assets/image-background-intro.png'
 import Event from './event'
 import Info from './info'
-
+import '../medias.css'
 export default function Home(){
     return(
     <main>

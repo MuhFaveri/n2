@@ -12,7 +12,7 @@ export default function Teachers(){
           <h2>Conheça um pouco dos palestrantes</h2>
           <h1>PROFESSORES ESPECIALIZADOS</h1>
 
-          <div className="teachersEmCima">
+            <div className='all-teachers'>
             <div className="card-teacher">
               <img src={fabricio} alt="" />
 
@@ -33,11 +33,11 @@ export default function Teachers(){
               </div>
             </div>
 
-          </div>
 
 
 
-          <div className='teachersDoMeio'>
+
+
             
             <div className="card-teacher">
               <img src={longato} alt="" />
@@ -59,18 +59,21 @@ export default function Teachers(){
               </div>
             </div>
             
-          </div>
 
-          <div className='teacherEmbaixo'>
+
+          </div>
+          <div className='mecchi' id='mecchi2'>
+          <div className='card-teacher' id='asd'>
               <img src={mecchi} alt="" />
 
               <div className="teacher-content">
                 <strong>Marcelo Mecchi</strong>
                 <p>PLACEHOLDER</p>
                 {/* <!--                 <p>Compentencias: C, Javascript</p> --> */}
+                
               </div>
           </div>
-
+          </div>
         </div>
       </section>
     )

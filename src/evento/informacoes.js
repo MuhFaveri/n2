@@ -10,7 +10,7 @@ export default function Informacoes(){
     </div>
     <div className="explicacaotexto" id="texto2">
     <p>
-    Além das oficinas oferecidas pelo evento, também serão apresentadas por outros dois professores duas palestras. Nelas, serão abordados assuntos atuais sobre tecnologia e o mundo no mercado de trabalho de TI. Além de uma brimcadeira surpresa oferecida por um dos professores.
+    Além das oficinas oferecidas pelo evento, também serão apresentadas por outros dois professores duas palestras. Nelas, serão abordados assuntos atuais sobre tecnologia e o mundo no mercado de trabalho de TI. Além de uma brincadeira surpresa oferecida por um dos professores.
     </p>
     </div>
     </div>

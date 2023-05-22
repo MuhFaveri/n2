@@ -8,7 +8,7 @@ return(
     <>
     <img src={bg} className="image-background" alt="aaaa"/>
     <Nav></Nav>
-    <h1 id="aaaa"><i><u>Evento</u></i></h1>
+    <h1 id="aaaa"><b><i>Evento</i></b></h1>
     <Informacoes></Informacoes>
     <img src={fotofoot} id='fotofoot' alt="quebrou"/>
     </>

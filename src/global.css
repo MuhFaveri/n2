@@ -13,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     background-attachment:initial;
+/*     outline: red 1px dashed; */
 }
 
 @media (max-width: 1440px) {
@@ -58,10 +59,10 @@ h2 {
     font-weight: 500;
 }
 
- p {
+/*  p {
     font-family: Inter;
     font-weight: 400;
- }
+ } */
 
 button {
     font-family: Poppins;

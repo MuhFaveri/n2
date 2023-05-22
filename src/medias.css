@@ -21,9 +21,17 @@
     #event .event-content img {
       display: none;
     }
+    
+    #teachers #mecchi2{
+      max-width: 100% !important;
+    }
   
     .image-background {
       height: 1000px;
+    }
+
+    #info .Ungabunga{
+      flex-direction: column;
     }
   }
   

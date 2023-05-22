@@ -5,7 +5,7 @@ function Event(){
     
     <section id="event">
     <div className="event-content">
-          <div>
+          <div className='event-testo'>
             <h1>Por que participar de nosso evento?</h1>
             <p>
               A Semana da Computação (SECOM) está chegando! Este é o evento
