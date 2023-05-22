@@ -4,10 +4,9 @@ function Nav(){
       <h1 className='logo'>SECOM</h1>
       <nav>
         <ul>
-          <li><a href='intro'>Home</a></li>
-          <li><a href='#'>Professores</a></li>
-          <li><a href="#">Evento</a></li>
-          <li><a href="#">Informações</a></li>
+          <li><a href='#' >Pré-evento</a></li>
+          <li><a href='#' >Durante o Evento</a></li>
+          <li><a href="#" >Pós-Evento</a></li>
         </ul>
       </nav>
 
