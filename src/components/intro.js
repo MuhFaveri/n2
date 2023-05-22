@@ -3,7 +3,7 @@ import img from './assets/image-intro.png'
 function Intro(){
     return (
     <section id="intro">
-    <div class="intro-content">
+    <div className="intro-content">
       <div>
         <h2>Semana da Computação</h2>
         <h1>Explorando a inovação</h1>
