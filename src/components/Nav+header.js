@@ -12,7 +12,7 @@ function Nav(){
       </nav>
 
       <button>FORMULÁRIO</button>
-    </header>
+  </header>
     </>)
 }
 

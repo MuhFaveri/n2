@@ -1,0 +1,18 @@
+.image-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+#aaaa{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 8rem;
+    color: #fbfbfb;
+    text-shadow: -10px 1px 10px #000000, -11px 1px 10px #000000;
+    
+}
