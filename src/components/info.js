@@ -7,6 +7,7 @@ function Info(){
     <div className="info-content">
           <h1 id="h1-info">Informações</h1>
           <div className="info-cards">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.6158904656763!2d-46.58150092388208!3d-23.61810476368084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5d47a95a265f%3A0xb8b2280e637ac0d9!2sUniversidade%20Municipal%20de%20S%C3%A3o%20Caetano%20do%20Sul%20-%20Campus%20Concei%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1684714356078!5m2!1spt-BR!2sbr" id="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div className="info-card" id="info-local">
               <svg
                 width="50"
@@ -47,7 +48,7 @@ function Info(){
               <p>04/05/2023 8:00 - 11:30</p>
               <p>05/05/2023 8:00 - 11:30</p>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.6158904656763!2d-46.58150092388208!3d-23.61810476368084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5d47a95a265f%3A0xb8b2280e637ac0d9!2sUniversidade%20Municipal%20de%20S%C3%A3o%20Caetano%20do%20Sul%20-%20Campus%20Concei%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1684714356078!5m2!1spt-BR!2sbr" id="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
           </div>
         </div>
     </section>
