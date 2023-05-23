@@ -5,7 +5,7 @@ import Atropos from "atropos/react"
 
 export default function Oficinas() {
     const handleClick = () => {
-        window.open('https://forms.gle/HF9oRKaM1EympZpF7');
+        window.open('https://docs.google.com/document/d/1IHRzQmjBq_bqRfAVynW85fbXDq-MFENS/edit?usp=sharing&ouid=117257627595223167130&rtpof=true&sd=true');
       }
 
 
