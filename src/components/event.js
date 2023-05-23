@@ -1,4 +1,5 @@
 import Secom from './assets/Secom.png'
+import Atropos from 'atropos/react'
 
 function Event(){
     return(<>
@@ -31,7 +32,17 @@ function Event(){
             </p>
             <div id="event-button"><button>Inscreva-se!</button></div>
           </div>
+
+          <Atropos
+        activeOffset={40}
+        shadowScale={1.05}
+        onEnter={() => console.log('Enter')}
+        onLeave={() => console.log('Leave')}
+        onRotate={(x, y) => console.log('Rotate', x, y)}
+      >
           <img src={Secom} alt="Evento - Teste" />
+      </Atropos>
+
         </div>
       </section>
 

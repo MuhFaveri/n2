@@ -108,6 +108,7 @@ header button:hover {
     margin: 0 auto;
     max-width: 1200px;
     width: 90%;
+    flex-direction: row-reverse;
 }
 
 #event button {
@@ -153,7 +154,7 @@ header button:hover {
 }
 
 #teachers .teachers-content {
-
+    max-width: 1200px;
     margin: 0 auto;
     width: 90%;
     justify-content: center;
@@ -168,11 +169,16 @@ header button:hover {
 }
 
 #teachers .mecchi{
-    margin: 5rem auto 0 auto;
-    min-width: 500px;
-    max-width: 50%;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 100%;
 }
 
+#asd.card-teacher{
+    min-width: 500px;
+    width: 50%;
+}
 
 /* #teachers .teacherEmbaixo {
     display: flex;
@@ -241,6 +247,7 @@ header button:hover {
     justify-content: center;
 
     margin-top: 3rem;
+    flex-direction: row-reverse;
 }
 
 #info .info-content {

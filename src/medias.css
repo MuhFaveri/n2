@@ -22,9 +22,15 @@
       display: none;
     }
     
-    #teachers #mecchi2{
-      max-width: 100% !important;
+    #teachers .mecchi{
+      width: 100% !important;
     }
+
+    #asd.card-teacher {
+      display: grid;
+      min-width: 500px;
+      width: 100%!important;
+  }
   
     .image-background {
       height: 1000px;
