@@ -2,6 +2,12 @@ import Secom from './assets/Secom.png'
 import Atropos from 'atropos/react'
 
 function Event(){
+
+  const handleClick = () => {
+    window.location.replace('https://forms.gle/HF9oRKaM1EympZpF7');
+  }
+
+
     return(<>
     
     <section id="event">
@@ -30,7 +36,7 @@ function Event(){
               e programação, preencha o formulário e garanta agora sua
               participação!
             </p>
-            <div id="event-button"><button>Inscreva-se!</button></div>
+            <div id="event-button"><button onClick={handleClick}>Inscreva-se!</button></div>
           </div>
 
           <Atropos
