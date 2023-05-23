@@ -1,6 +1,13 @@
+
 function Nav(){
+
+  const handleClick = () => {
+    window.location.replace('https://forms.gle/HF9oRKaM1EympZpF7');
+  }
+  
     return(<>
- <header>
+  <header>
+   <div className="headerNav">
       <h1 className='logo'>SECOM</h1>
       <nav>
         <ul>
@@ -9,7 +16,8 @@ function Nav(){
         </ul>
       </nav>
 
-      <button>FORMULÁRIO</button>
+      <button onClick={handleClick}>FORMULÁRIO</button>
+   </div>
   </header>
     </>)
 }

@@ -1,11 +1,18 @@
 import Secom from './assets/Secom.png'
+import Atropos from 'atropos/react'
 
 function Event(){
+
+  const handleClick = () => {
+    window.location.replace('https://forms.gle/HF9oRKaM1EympZpF7');
+  }
+
+
     return(<>
     
     <section id="event">
     <div className="event-content">
-          <div>
+          <div className='event-testo'>
             <h1>Por que participar de nosso evento?</h1>
             <p>
               A Semana da Computação (SECOM) está chegando! Este é o evento
@@ -29,9 +36,19 @@ function Event(){
               e programação, preencha o formulário e garanta agora sua
               participação!
             </p>
-            <div id="event-button"><button>Inscreva-se!</button></div>
+            <div id="event-button"><button onClick={handleClick}>Inscreva-se!</button></div>
           </div>
+
+          <Atropos
+        activeOffset={40}
+        shadowScale={1.05}
+        onEnter={() => console.log('Enter')}
+        onLeave={() => console.log('Leave')}
+        onRotate={(x, y) => console.log('Rotate', x, y)}
+      >
           <img src={Secom} alt="Evento - Teste" />
+      </Atropos>
+
         </div>
       </section>
 

@@ -1,3 +1,5 @@
+@import 'atropos/scss';
+
 :root {
     --white: #FFFF;
     --gray-100: #F5F5F5;
@@ -13,6 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     background-attachment:initial;
+/*     outline: red 1px dashed; */
 }
 
 @media (max-width: 1440px) {
@@ -58,10 +61,10 @@ h2 {
     font-weight: 500;
 }
 
- p {
+/*  p {
     font-family: Inter;
     font-weight: 400;
- }
+ } */
 
 button {
     font-family: Poppins;
@@ -83,3 +86,4 @@ li {
 a {
     color: var(--white);
 }
+
