@@ -6,7 +6,7 @@ export default function PagEvento(){
 
 return(
     <>
-    <img src={bg} className="image-background" alt="aaaa"/>
+    <img src={bg} className="image-beckground" alt="aaaa"/>
     <Nav></Nav>
     <h1 id="aaaa"><b><i>Evento</i></b></h1>
     

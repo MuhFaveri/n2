@@ -1,13 +1,26 @@
 import oficina from "./assets/oficina.png"
 import palestra from "./assets/palestra.png"
-
+import Atropos from "atropos/react"
 export default function Oficinas() {
+    const handleClick = () => {
+        window.location.replace('https://forms.gle/HF9oRKaM1EympZpF7');
+      }
+
 
     return(
         <>
-        
+        <h2 id="explicacao">Oficinas e Palestras</h2>
         <div className="cssOficinas" id="idOficina" >
-            <img src={oficina} id="imagemOficina" alt="bugou" />
+            
+            <Atropos
+        activeOffset={40}
+        shadowScale={1.05}
+        onEnter={() => console.log('Enter')}
+        onLeave={() => console.log('Leave')}
+        onRotate={(x, y) => console.log('Rotate', x, y)}
+      >
+        <img src={oficina} id="imagemOficina" alt="bugou" />
+      </Atropos>
             <p>Em um dos dias do evento, 
                 os professores, Aparecido e Leila, 
                 realizarão em suas respectivas salas, 
@@ -22,7 +35,16 @@ export default function Oficinas() {
         </div>
 
         <div className="cssOficinas" id="idPalestra" >
-            <img src={palestra} id="imagemPalestra" alt="bugou" />
+
+            <Atropos
+        activeOffset={40}
+        shadowScale={1.05}
+        onEnter={() => console.log('Enter')}
+        onLeave={() => console.log('Leave')}
+        onRotate={(x, y) => console.log('Rotate', x, y)}
+      >
+      <img src={palestra} id="imagemPalestra" alt="bugou" />
+      </Atropos>
             <p>Além das oficinas oferecidas pelo evento, 
                 também serão apresentadas por outros dois
                  professores duas palestras. Nelas, serão
@@ -32,8 +54,7 @@ export default function Oficinas() {
                      oferecida por um dos professores.</p>
         </div>
 
-        <button id="botaoProgramacao" >PROGRAMAÇÃO</button>
-
+        <button id="botaoProgramacao" onClick={handleClick} >PROGRAMAÇÃO</button>
         </>
     )
 

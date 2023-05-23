@@ -1,10 +1,7 @@
-import './medias.css'
+
 import { BrowserRouter as Router , Routes, Route} from 'react-router-dom'
-import Home from './components/home'
+import Home from './components/main'
 import PagEvento from './evento/PaginaEscrita'
-import './global.css'
-import './evento/eventocss.css'
-import './styles.css'
 
 export default function App(){
     return(
