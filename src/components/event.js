@@ -4,7 +4,7 @@ import Atropos from 'atropos/react'
 function Event(){
 
   const handleClick = () => {
-    window.location.replace('https://forms.gle/HF9oRKaM1EympZpF7');
+    window.open('https://forms.gle/HF9oRKaM1EympZpF7');
   }
 
 
