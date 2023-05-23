@@ -1,9 +1,11 @@
 import oficina from "./assets/oficina.png"
 import palestra from "./assets/palestra.png"
 import Atropos from "atropos/react"
+
+
 export default function Oficinas() {
     const handleClick = () => {
-        window.location.replace('https://forms.gle/HF9oRKaM1EympZpF7');
+        window.open('https://forms.gle/HF9oRKaM1EympZpF7');
       }
 
 
