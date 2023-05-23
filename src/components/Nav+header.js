@@ -1,4 +1,10 @@
+
 function Nav(){
+
+  const handleClick = () => {
+    window.location.replace('https://forms.gle/HF9oRKaM1EympZpF7');
+  }
+  
     return(<>
   <header>
    <div className="headerNav">
@@ -10,7 +16,7 @@ function Nav(){
         </ul>
       </nav>
 
-      <button>FORMULÁRIO</button>
+      <button onClick={handleClick}>FORMULÁRIO</button>
    </div>
   </header>
     </>)
