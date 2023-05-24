@@ -1,5 +1,6 @@
 import img from './assets/image-intro.png'
-import Atropos from 'atropos/react'
+
+
 function Intro(){
     return (
     <section id="intro">
@@ -14,16 +15,8 @@ function Intro(){
         </p>
       </div>
 
-      <Atropos
-        activeOffset={40}
-        shadow={false}
-        highlight={false}
-        onEnter={() => console.log('Enter')}
-        onLeave={() => console.log('Leave')}
-        onRotate={(x, y) => console.log('Rotate', x, y)}
-      >
       <img src={img} alt="Baisinai" />
-      </Atropos>
+
     </div>
   </section>)
 }
