@@ -1,12 +1,12 @@
 @import 'atropos/scss';
 
 :root {
-    --white: #FFFF;
+    --white: rgb(163, 3, 3);
     --gray-100: #F5F5F5;
-    --gray-300: #C8C8C8;
-    --blue-500: #125896;
+    --gray-300: #501ea0;
+    --blue-500: #d3188b;
     --blue-900: #0F0617;
-    --pink: #e04d69;
+    --pink: #23b14e;
     --black: #000000;
 }
 
